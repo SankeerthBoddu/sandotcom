@@ -47,7 +47,7 @@ about_content: | # this will include new lines to allow paragraphs
    - <mark>Cloud Resume Challenge</mark> : It is a hands-on project designed to help you bridge the gap from cloud certification to cloud job. It incorporates many of the skills that real cloud and DevOps engineers use in their daily work.
    - <mark>Web3 IPFS</mark> : IPFS (short for InterPlanetary File System) is a file storing and sharing system appropriate for the next generation of the Internet; Web3. IPFS is a versioned file system at its core, which can store files and track versions over time, much like git.
 
-  While you're here, enjoy this about us via [r/comics](https://www.reddit.com/r/comics/comments/jjkqh2/human_thing/) supports such as
+  While you're here, enjoy this about us via [r/comics](https://www.reddit.com/r/comics/comments/jjkqh2/human_thing/)
     - ![alt text](/images/human_thing.jpg "Human Drama Thing")
 
 content:
@@ -61,7 +61,7 @@ content:
           Visit my Linkedin Page for Complete Professional Resume.
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
