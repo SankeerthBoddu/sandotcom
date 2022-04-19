@@ -1,0 +1,89 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Sankeerth Boddu
+title: Learn New Things! Make things work! Automate! Repeat!  
+# email: Your email (optional)
+# email_title: Email (Email title override)
+# phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+website: https://sankeerth.com
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+linkedin_username: sankeerth
+github_username:  sankeerthb
+twitter_username: sankeerth
+facebook_username: sankeerth
+
+# Additional icon links
+#additional_links:
+#- title: Link name
+#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+google_analytics: "UA-6537510-1"
+
+# About Section
+about_title: An average guy with average concerns.
+about_profile_image: images/profile1.jpg
+about_content: | # this will include new lines to allow paragraphs
+  hey there! Just trying to use this domain for Cloud Resume Challenge with a variation of hosting this react page on Web3 IPFS.
+   - <mark>Cloud Resume Challenge</mark> : It is a hands-on project designed to help you bridge the gap from cloud certification to cloud job. It incorporates many of the skills that real cloud and DevOps engineers use in their daily work.
+   - <mark>Web3 IPFS</mark> : IPFS (short for InterPlanetary File System) is a file storing and sharing system appropriate for the next generation of the Internet; Web3. IPFS is a versioned file system at its core, which can store files and track versions over time, much like git.
+
+  While you're here, enjoy this about us via [r/comics](https://www.reddit.com/r/comics/comments/jjkqh2/human_thing/) supports such as
+    - ![alt text](/images/human_thing.jpg "Human Drama Thing")
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        description: | # this will include new lines to allow paragraphs
+          Visit my Linkedin Page for Complete Professional Resume.
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
